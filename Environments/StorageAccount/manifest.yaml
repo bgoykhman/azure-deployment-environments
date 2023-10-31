@@ -1,0 +1,22 @@
+name: StorageAccount
+summary: Creates a Storage Account using Terraform
+description: Deploys an environment using Terraform containing a Storage Account
+runner: Terraform
+templatePath: main.tf
+parameters:
+- id: "storage_account_name"
+  name: "Storage Account Name"
+  required: true
+  type: "string"
+- id: "location"
+  name: "Location"
+  required: true
+  type: "string"
+- id: "tier"
+  name: "Storage Account Tier"
+  required: true
+  type: "string"
+- id: "replication_type"
+  name: "Storage Account Replication Type"
+  required: true
+  type: "string"
