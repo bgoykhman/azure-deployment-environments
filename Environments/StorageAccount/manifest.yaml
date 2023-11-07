@@ -4,7 +4,7 @@ description: Deploys an environment using Terraform containing a Storage Account
 runner: Terraform
 templatePath: main.tf
 parameters:
-- id: "storage_account_name"
+- id: "resource_name"
   name: "Storage Account Name"
   required: true
   type: "string"
