@@ -5,7 +5,7 @@ runner: Terraform
 templatePath: main.tf
 parameters:
 - id: "resource_name"
-  name: "Storage Account Name"
+  name: "Resource Name"
   required: true
   type: "string"
 - id: "location"
